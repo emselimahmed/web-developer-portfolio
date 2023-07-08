@@ -18,7 +18,7 @@ body {
 }
 
 .section-title {
-    color: var(--dark-01, #181818);
+    color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
@@ -31,11 +31,12 @@ body {
 }
 
 /* nav related styles */
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 150px;
 }
 
 .nav-title {
@@ -44,9 +45,10 @@ nav {
     font-weight: 800;
 }
 
-nav>ul {
+nav > ul {
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 nav li {
@@ -59,41 +61,44 @@ nav a {
     color: #474747;
 }
 
-/* header releted style */
+/* header related style */
+
 .header {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-size: 750px;
 }
 
 .banner {
-    padding: 30px 30px 0px 150px;
+    padding: 0px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner .profile-pic {
-    width: 450px;
+.banner .profile-pic{
+    width: 375px;
 }
 
 .banner-greeting {
-    font-size: 45px;
+    font-size: 40px;
     color: #474747;
 }
 
 .banner-title {
-    font-size: 85px;
+    font-size: 50px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .banner-content {
-    max-width: 500px;
+    max-width: 450px;
 }
 
 /* main section styles */
+
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -104,10 +109,11 @@ main section {
 }
 
 /* about section styles */
+
 .about {
     padding: 130px;
     border-radius: 10px;
-    background: #FFF8F3;
+    background: #faf4f0;
     margin: 130px 0;
 }
 
@@ -120,7 +126,7 @@ main section {
     text-align: center;
 }
 
-/* skills releted styles */
+/* skills related styles */
 
 #what-i-do-description {
     padding: 30px 150px;
@@ -186,7 +192,7 @@ main section {
 
 footer {
     display: flex;
-    background-color: #FFF8F3;
+    background-color: #faf4f0;
     padding: 130px 200px;
     margin-top: 100px;
     gap: 100px;
