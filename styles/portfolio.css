@@ -45,7 +45,7 @@ nav {
     font-weight: 800;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -78,7 +78,7 @@ nav a {
     justify-content: space-between;
 }
 
-.banner .profile-pic{
+.banner .profile-pic {
     width: 375px;
 }
 
@@ -90,7 +90,7 @@ nav a {
 .banner-title {
     font-size: 50px;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .banner-content {
@@ -105,7 +105,7 @@ main {
 }
 
 main section {
-    margin-top: 130px;
+    margin-top: 150px;
 }
 
 /* about section styles */
@@ -150,6 +150,7 @@ main section {
 }
 
 /* Resume section styles */
+
 .resume-column-title {
     color: #474747;
     font-size: 30px;
@@ -198,11 +199,11 @@ footer {
     gap: 100px;
 }
 
-.section-description{
+.section-description {
     text-align: justify;
 }
 
-.social-links a{
+.social-links a {
     margin-left: 25px;
 }
 
@@ -210,14 +211,15 @@ footer {
     width: 50%;
 }
 
-.contact input[type="text"], .contact input[type="email"],
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
     color: #757575;
     border-radius: 5px;
-    background:  #FFF;
+    background: #FFF;
     border: 0;
     width: 100%;
 }
